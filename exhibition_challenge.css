@@ -1,0 +1,43 @@
+html{
+    background-color: ghostwhite;
+}
+
+
+@media only screen and (max-width: 730px) {
+    #form{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float:left;
+    }
+    #table{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float:left;
+    }
+    #contact{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 730px){
+    #form{
+        width: 27%;
+        margin: 10px;
+        float:left;
+    }
+    #table{
+        width: 37%;
+        margin: 10px;
+        float:left;
+    }
+    #contact{
+        width: 27%;
+        margin: 10px;
+        float:left;
+    }
+}
